@@ -2,21 +2,21 @@
 
 ATRIBUTOS (COLUMNAS):
 
-  1) El resultado binario de la evaluación de la calidad. 0 = mala calidad 1 = calidad suficiente.
-  2) El resultado binario de la preselección, donde 1 indica anomalía retiniana grave y 0 su ausencia.
-  3-8) Los resultados de la detección de MA. Cada valor de característica representa el número de MA encontrados en los niveles de confianza alfa = 0,5, . . . , 1, respectivamente.
-  9-16) contienen la misma información que 2-7) para exudados. Sin embargo,
+  1º) El resultado binario de la evaluación de la calidad. 0 = mala calidad 1 = calidad suficiente.
+  2º) El resultado binario de la preselección, donde 1 indica anomalía retiniana grave y 0 su ausencia.
+  3º-8º) Los resultados de la detección de MA. Cada valor de característica representa el número de MA encontrados en los niveles de confianza alfa = 0,5, . . . , 1, respectivamente.
+  9º-16º) contienen la misma información que 2-7) para exudados. Sin embargo,
 ya que los exudados están representados por un conjunto de puntos en lugar del número de
 píxeles que construyen las lesiones, estas características se normalizan dividiendo el
 número de lesiones con el diámetro del ROI para compensar diferentes imágenes
 tamaños
-  17) La distancia euclidiana del centro de
+  17º) La distancia euclidiana del centro de
 la mácula y el centro del disco óptico para proporcionar información importante
 en cuanto a la condición del paciente. Esta característica
 también se normaliza con el diámetro de la ROI.
-  18) El diámetro del disco óptico.
-  19) El resultado binario de la clasificación basada en AM/FM.
-  20) Etiqueta de clase. 1 = contiene signos de DR (Etiqueta acumulativa para las clases Messidor 1, 2, 3), 0 = sin signos de DR.
+  18º) El diámetro del disco óptico.
+  19º) El resultado binario de la clasificación basada en AM/FM.
+  20º) Etiqueta de clase. 1 = contiene signos de DR (Etiqueta acumulativa para las clases Messidor 1, 2, 3), 0 = sin signos de DR.
 
 
 RESUMEN SOBRE EL CONJUNTO DE DATOS:
